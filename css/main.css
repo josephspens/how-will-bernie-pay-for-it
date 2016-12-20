@@ -1,0 +1,46 @@
+body {
+  padding-top: 3em;
+  background-color: #f5f5f5;
+}
+
+h1, h2 {
+  display: block;
+  text-align: center;
+  margin: 0 0 1rem;
+  line-height: 1;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+.mdl-card {
+  min-height: 0;
+  width: 100%;
+}
+
+.mdl-card__title {
+  display: block;
+  overflow: hidden;
+}
+
+.mdl-card__title-text {
+  float: left;
+  margin-bottom: 0.5rem;
+}
+
+.mdl-card__subtitle {
+  clear: both;
+  font-size: 0.8em;
+}
+
+.mdl-card__value {
+  font-size: 1.5em;
+  font-weight: 300;
+  float: right;
+}
